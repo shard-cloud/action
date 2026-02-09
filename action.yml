@@ -17,5 +17,5 @@ inputs:
     description: "Working Directory"
 
 runs:
-  using: node25
+  using: node24
   main: "index.js"
