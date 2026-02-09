@@ -30808,7 +30808,7 @@ async function run() {
         
         const [cmd, ...args] = command.split(/\s+/);
         
-        await exec_exec(cmd, args, {
+        await exec_exec(`shardcloud ${cmd}`, args, {
           cwd: workdir,
         });
         
