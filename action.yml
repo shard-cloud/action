@@ -1,0 +1,21 @@
+name: "ShardCloud CI/CD"
+description: "Deploy your application to ShardCloud"
+author: "ShardCloud"
+branding:
+  icon: activity
+  color: white
+inputs:
+  token:
+    required: true
+    description: "ShardCloud API Key"
+  commands:
+    required: false
+    description: "Commands to execute"
+  workdir:
+    required: false
+    default: "."
+    description: "Working Directory"
+
+runs:
+  using: node25
+  main: "index.js"
