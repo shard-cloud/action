@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "build": "ncc build index.js -o dist"
+
   },
   "dependencies": {
     "@actions/core": "^3.0.0",
@@ -16,5 +18,8 @@
     "shardcloud"
   ],
   "author": "ShardCloud",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.4"
+  }
 }
