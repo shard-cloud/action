@@ -16,7 +16,6 @@ Deploy your application to ShardCloud directly from your GitHub workflows.
 - [Available Commands](#available-commands)
 - [Tips](#tips)
 - [Support](#support)
-- [License](#license)
 
 ## Description
 
@@ -204,7 +203,7 @@ The action supports all ShardCloud CLI commands. Common commands include:
 - `commit <app_id>` - Deploy changes to your application
 - `restart <app_id>` - Restart your application
 - `backup <app_id>` - Create a backup of your application
-- And more - refer to the [ShardCloud CLI documentation](https://docs.shardcloud.com) for a complete list
+- And more - refer to the [ShardCloud CLI documentation](https://docs.shardcloud.app/cli/cli) for a complete list
 
 ## Tips
 
@@ -216,7 +215,7 @@ The action supports all ShardCloud CLI commands. Common commands include:
 ## Support
 
 For issues or questions:
-- Visit the [ShardCloud Documentation](https://docs.shardcloud.com)
+- Visit the [ShardCloud Documentation](https://docs.shardcloud.app)
 - Open an issue in this repository
 - Contact ShardCloud support
 
